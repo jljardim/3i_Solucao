@@ -3,6 +3,12 @@
     --cor-hover: #afecd7  ;
     --cor-primaria: #f2fefe  ;
 }
+.dp_menu ul ul li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: var(--cor-primaria);
+}
 .dp_menu ul {
     list-style-type: nome;
     padding: 0;
@@ -11,11 +17,13 @@
     background-color: var(--cor-fundo);
     width: 320px;
     border: 2px solid #024053;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .dp_menu ul li {
     display: inline;
     position: relative;
+    font-weight: bold;
+    font-size: 20px;
 }
 .dp_menu ul li a {
    color: var(--cor-primaria);
@@ -23,6 +31,7 @@
    display: inline-block;
    padding: 10px;
    transition: background .8s;
+   
 }
 .dp_menu ul li a:hover {
     background-color: var(--cor-hover);
@@ -36,6 +45,7 @@
 }
 .dp_menu ul li:hover ul {
     display: block;
+    
 }
 .dp_menu ul ul {
     width: 150px;
