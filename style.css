@@ -1,6 +1,6 @@
 :root {
-    --cor-fundo: #21ad79  ;
-    --cor-hover: #afecd7  ;
+    --cor-fundo: #024053  ;
+    --cor-hover: #E6E6FA ;
     --cor-primaria: #f2fefe  ;
 }
 .dp_menu ul ul li a {
@@ -10,14 +10,18 @@
     background-color: var(--cor-primaria);
 }
 .dp_menu ul {
-    list-style-type: nome;
-    padding: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 .dp_menu ul  {
+    list-style-type: nome;
+    padding: 0;
     background-color: var(--cor-fundo);
-    width: 320px;
-    border: 2px solid #024053;
+    width: 400px;
+    border: 2px solid var(--cor-primaria);
     border-radius: 10px;
+
 }
 .dp_menu ul li {
     display: inline;
@@ -35,6 +39,8 @@
 }
 .dp_menu ul li a:hover {
     background-color: var(--cor-hover);
+    color: #000;
+    border-radius: 10px;
  }
 
  /* Sub Menu */
@@ -54,8 +60,9 @@
     display: block;
 }
 body {
-    background: rgb(217,244,232);
-    background: linear-gradient(90deg, rgba(217,244,232,0.9668242296918768) 0%, rgba(203,230,223,0.9304096638655462) 100%);
+    background: rgb(212,216,219);
+    background: linear-gradient(90deg, rgba(212,216,219,0.908000700280112) 0%,
+     rgba(135,152,147,0.9304096638655462) 100%);
     color: #024053; 
 
    
@@ -74,11 +81,11 @@ body {
 button {
     width: 150px;
     height: 50px;
-    background-color: #22a374;
+    background-color: #024053;
     color: white;
     font-weight: bold;
     border-radius: 50px;
-    border: 2px solid #00FF7F;
+    border: 2px solid #fff;
 }
 #title {
     margin-left: 600px;
